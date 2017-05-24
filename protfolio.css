@@ -2,7 +2,7 @@ body{
   font-family: Verdana, Helvetica, Arial, sans-serif;
   background-color:#CDC1C5;
 }
-#header{
+div#header{
   font-weight:bold;
   color:white;
   background-color:purple;
