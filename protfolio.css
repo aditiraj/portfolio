@@ -1,0 +1,109 @@
+body{
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  background-color:#CDC1C5;
+}
+#header{
+  font-weight:bold;
+  color:white;
+  background-color:purple;
+  height:80px;
+  padding:30px;
+}
+a{
+  color:white;
+  outline: 0;
+}
+#header a:hover{
+  color:gray;
+  padding:15px;
+  background-color:white;
+  text-decoration:none; 
+}
+#details{
+  margin-left:auto;
+  margin-right:auto;
+ text-align:center; 
+}
+
+#about{
+  height:800px;
+  background-color:#BDA0CB;
+  padding:8px;
+}
+#image{
+  margin:30px;
+  top:200px;
+  text-align:center;
+}
+#image img{
+  border-radius:50%;
+}
+.skills{
+  float:left;
+  top:550px;
+  height:200px;
+  width:280px;
+  padding:24px;
+  margin-left:24px;
+  text-align:left;
+  background-color:#BF5FFF;
+}
+.skills:nth-child(2n){
+  background-color:#CDB5CD;
+}
+
+#protfolio{
+  text-align:center;
+  height:800px;
+  background-color:#CC99CC;
+  padding:15px;
+}
+
+.projects{
+  float:left;
+  margin-left:70px; 
+  margin-bottom:5px;
+  border:#9F5F9F solid; 
+}
+.projects td{  
+padding:5px;
+}
+.projects img{
+height:280px;  
+width:300px; 
+}
+
+#contact{
+  text-align:center;
+  height:350px;
+  background-color:#BDA0CB;
+  padding:15px;
+}
+
+.mail{
+  float:left;
+  height:200px;
+  width:550px;
+  padding:24px;
+  margin-left:24px;
+  text-align:left;
+  background-color:#BF5FFF;
+}
+
+.mail:nth-child(2n){
+  background-color:#CDB5CD;
+}
+
+#icons td{
+ padding:20px;
+ width:180px; 
+}
+#footer{ 
+  top:2000px;
+  font-weight:bold;
+  color:white;
+  background-color:purple;
+  text-align:center;
+  height:80px;
+  padding:30px;
+}
